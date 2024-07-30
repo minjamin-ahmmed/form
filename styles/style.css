@@ -1,0 +1,78 @@
+/* Fonts */
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-container {
+    max-width: 992px;
+    height: 50vh;
+    padding: 200px 50px;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 18px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-container h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text {
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.password {
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.btn-primary {
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: black;
+    border: none;
+}
